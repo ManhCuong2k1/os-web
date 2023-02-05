@@ -16,6 +16,12 @@ export default {
         ],
     },
 
+    googleFonts: {
+        families: {
+            Poppins: [300, 400, 500, 600, 700, 800],
+        },
+    },
+
     // Global CSS: https://go.nuxtjs.dev/config-css
     css: [
         'element-ui/lib/theme-chalk/index.css',

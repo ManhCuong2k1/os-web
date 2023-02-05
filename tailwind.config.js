@@ -18,6 +18,7 @@ module.exports = {
             white: colors.white,
             gray: {
                 10: '#F4F4F4',
+                70: '#727272',
                 100: '#181818',
             },
             yellow: {
@@ -35,7 +36,7 @@ module.exports = {
             '3xl': ['25px', { lineHeight: '38px' }],
             '4xl': ['36px', { lineHeight: '54px' }],
             '5xl': ['39px', { lineHeight: '51px' }],
-            '6xl': ['46px', { lineHeight: '54px' }],
+            '6xl': ['45px', { lineHeight: '67.5px' }],
             '7xl': ['56px', { lineHeight: '64px' }],
         },
         borderRadius: {

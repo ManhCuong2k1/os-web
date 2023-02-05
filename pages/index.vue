@@ -1,5 +1,5 @@
 <template>
-    <div class="xl:container xl:mx-auto my-12">
+    <div class="container mx-auto my-12">
         <Slider />
     </div>
 </template>
