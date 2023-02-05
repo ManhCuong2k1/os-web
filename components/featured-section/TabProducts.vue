@@ -1,6 +1,6 @@
 <template>
     <div>
-        <el-tabs type="card" class="tabs lg:block hidden" @tab-click="handleClick">
+        <el-tabs type="card" class="tabs lg:block hidden">
             <el-tab-pane v-for="tab in OPTION_TABS" :key="tab.title" class="!h-full">
                 <template #label>
                     <div class="m-8 bg-white shadow rounded py-8 hover:scale-105 transition-all duration-300">
@@ -19,7 +19,6 @@
             v-model="activeNames"
             class="lg:hidden block !border-0"
             accordion
-            @change="handleChange"
         >
             <el-collapse-item
                 v-for="(tab, index) in OPTION_TABS"

@@ -16,7 +16,7 @@
         </div>
         <div class="lg:col-span-4 col-span-6">
             <div class="bg-white rounded-lg p-[4px]">
-                <div class="flex md:pl-4 px-2 rounded-lg lg:bg-white bg-gray-10">
+                <div class="flex md:pl-4 pl-2 rounded-lg lg:bg-white bg-gray-10">
                     <div class="lg:block flex items-start text-yellow-100 text-4xl font-bold text-center py-4 md:w-1/4 sm:w-2/5 w-5/12">
                         25% <span class="lg:normal-case lg:m-0 mt-2  uppercase lg:text-4xl text-xl">off</span>
                     </div>
